@@ -1,0 +1,325 @@
+#hero {
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(22, 30, 56, 0.8);
+    overflow: hidden;
+    position: relative;
+    margin-top: 6rem !important;
+}
+img.ss {
+    position: relative;
+    width: 120%;
+}
+.mrg{
+    margin-top: 7rem;
+}
+ .cardall{
+    max-width: 300px;
+    height: 215px;
+    background: #fff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 3px 15px rgba(34, 146, 191, 88);
+    transition: 0.5s ease-in-out;
+}
+
+ .cardall:hover{
+
+    height: 490px;
+}
+ .cardall .imBx{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 3px 15px rgba(34, 146, 191, 88);
+}
+
+
+ .cardall .content{
+
+    position: relative; 
+    margin-top: -160px;
+    padding: 25px 0px;
+    text-align: center;
+    color: #ffffff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+
+}
+
+ .cardall:hover .content{
+
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay:0.4s ;
+}
+
+.cardall {
+    max-width: 300px;
+    height: 233px;
+    background: #000;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 3px 15px rgba(60, 112, 255, 0.973);
+    transition: 0.4s ease-in-out;
+}
+
+.all_img {
+    position: relative;
+    border-radius: 100px;
+    max-width: 172px;
+    text-align: center;
+    /* padding-left: 61px; */
+    margin-top: 81px;
+    margin-left: 47px;
+}
+
+h2.\31 2 {
+    position: relative;
+    visibility: hidden;
+    text-align: center;
+   
+}
+.all_img {
+    position: relative;
+    border-radius: 100px;
+    max-width: 172px;
+    text-align: center;
+    /* padding-left: 61px; */
+    margin-top: 24px;
+    margin-left: 47px;
+}
+@media (min-width: 200px) and (max-width: 310px) {
+    .all_img {
+        position: relative;
+        border-radius: 100px;
+        max-width: 172px;
+        text-align: center;
+        /* padding-left: 61px; */
+        margin-top: 24px;
+        margin-left: 41px;
+    }
+
+  }
+
+
+  
+  @media (min-width: 375px) and (max-width: 424px) {
+    .cardall {
+        max-width: 300px;
+        height: 233px;
+        background: #000;
+        /* margin: 30px 10px; */
+        /* padding: 20px 15px; */
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 5px 20px rgba(60, 112, 255, 0.973);
+        transition: 0.4s ease-in-out;
+        margin-left: 25px;
+    }
+  }
+ 
+    .all_img {
+        position: relative;
+        border-radius: 100px;
+        max-width: 172px;
+        text-align: center;
+        /* padding-left: 61px; */
+        margin-top: 24px;
+        margin-left: 45px;
+    }
+  
+ 
+  @media (min-width: 1440px) and (max-width: 1600px) {
+    .cardall {
+        max-width: 300px;
+        height: 233px;
+        background: #000;
+        /* margin: 30px 10px; */
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 3px 15px rgba(60, 112, 255, 0.973);
+        transition: 0.4s ease-in-out;
+        margin-left: 57px;
+    }
+    
+  }
+
+  h3.\31 {
+    position: relative;
+    margin: 17px;
+}
+p.\32{
+    margin-top: -13px;
+    margin-bottom: 1rem;
+}
+.cardall {
+    max-width: 300px;
+    height: 233px;
+    background: #2d3436;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    box-shadow: rgb(34, 146, 191) 0px 1px 9px 3px, rgb(34, 146, 191) 0px 1px 7px 3px;
+    transition: 0.4s ease-in-out;
+}
+
+.all_img {
+    position: relative;
+    border-radius: 100px;
+    max-width: 172px;
+    text-align: center;
+    /* padding-left: 61px; */
+    margin-top: -36px;
+    margin-left: 47px;
+}
+
+
+
+
+
+h3.\31 {
+    position: relative;
+    margin-top: 50px;
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+    .cardall {
+        max-width: 300px;
+        height: 233px;
+        background: #000;
+        /* margin: 30px 10px; */
+        /* padding: 20px 15px; */
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 5px 20px rgba(34,146,191,88);
+        transition: 0.4s ease-in-out;
+        margin-left: 26px;
+    }
+
+}
+@media (min-width: 425px) and (max-width: 600px) {
+    .cardall {
+        max-width: 300px;
+        height: 233px;
+        background: #000;
+        /* margin: 30px 10px; */
+        /* padding: 20px 15px; */
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 5px 20px rgba(34,146,191,88);
+        transition: 0.4s ease-in-out;
+        margin-left: 50px;
+    }
+  }
+  @media (min-width: 600px) and (max-width: 800px) {
+    .all_img {
+        position: relative;
+        border-radius: 100px;
+        max-width: 147px;
+        text-align: center;
+        /* padding-left: 61px; */
+        margin-top: 56px;
+        margin-left: 9px;
+    }
+  }
+  @media (min-width: 700px) and (max-width: 1000px) {
+
+    h3.\31 {
+        position: relative;
+        margin-top: 22px;
+        font-size: 20px;
+    }
+
+
+
+  }
+  @media (min-width: 311px) and (max-width: 374px) {
+    .all_img {
+        position: relative;
+        border-radius: 100px;
+        max-width: 172px;
+        text-align: center;
+        /* padding-left: 61px; */
+        margin-top: -36px;
+        margin-left: 34px;
+    }
+  }
+  @media (min-width: 1010px) and (max-width: 1100px) {
+    .all_img {
+        position: relative;
+        border-radius: 100px;
+        max-width: 172px;
+        text-align: center;
+        /* padding-left: 61px; */
+        margin-top: -36px;
+        margin-left: 36px;
+    }
+     
+  }
+  @media (min-width: 700px) and (max-width: 1000px) {
+
+    .all_img {
+        position: relative;
+        border-radius: 100px;
+        max-width: 147px;
+        text-align: center;
+        /* padding-left: 61px; */
+        margin-top: -31px;
+        margin-left: 9px;
+    }
+  }
+  @media (min-width: 320px) and (max-width:400px) {
+
+    #hero {
+        width: 100%;
+        height: 30vh;
+        background-color: rgba(22, 30, 56, 0.8);
+        overflow: hidden;
+        position: relative;
+        margin-top: 6rem !important;
+    }
+    img.ss {
+        position: relative;
+        width: 50%;
+    }
+ 
+  }
+  @media (min-width: 400px) and (max-width:522px) {
+
+    #hero {
+        width: 100%;
+        height: 40vh;
+        background-color: rgba(22, 30, 56, 0.8);
+        overflow: hidden;
+        position: relative;
+        margin-top: 6rem !important;
+    }
+  }
+  @media (min-width: 524px) and (max-width:743px) {
+    #hero {
+        width: 100%;
+        height: 44vh;
+        background-color: rgba(22, 30, 56, 0.8);
+        overflow: hidden;
+        position: relative;
+        margin-top: 6rem !important;
+    }
+    
+  }
+
+
+
+ 
